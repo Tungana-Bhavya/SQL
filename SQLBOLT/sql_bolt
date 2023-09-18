@@ -1,13 +1,80 @@
 
-
 sql practice questions were collected from sqlbolt https://sqlbolt.com/ .
 
-SELECT QUERIES
+1. SELECT QUERIES
+
 ----  
 1. Find the title of each film
 ---SELECT TITLE FROM MOVIES;
 
 2. Find the director of each film
 ---SELECT DIRECTOR FROM MOVIES;
+
+3. Find the title and director of each film
+---SELECT TITLE,DIRECTOR FROM MOVIES;
+
+4. Find the title and year of each film
+---SELECT TITLE,YEAR FROM MOVIES;
+
+5. Find all the information about each film
+---SELECT * FROM MOVIES;
+
+----
+
+2. QUERIES WITH CONSTRAINTS
+
+-----
+1. Find the movie with a row id of 6
+---SELECT * FROM MOVIES WHERE ID=6;
+
+2. Find the movies released in the years between 2000 and 2010
+---SELECT TITLE,YEAR FROM MOVIES WHERE YEAR BETWEEN 2000 AND 2010;
+
+3. Find the movies not released in the years between 2000 and 2010
+---SELECT TITLE,YEAR FROM MOVIES WHERE YEAR<2000 AND YEAR>2000;
+
+4.Find the first 5 Pixar movies and their release year
+---SELECT TITLE FROM MOVIES LIMIT 5;
+
+-----
+
+3. QUERIES WITH CONSTRAINTS
+
+-----
+
+1. Find all the Toy Story movies
+---SELECT TITLE FROM MOVIES WHERE TITLE LIKE 'TOY%';
+
+2. Find all the movies directed by John Lasseter
+---SELECT * FROM MOVIES WHERE DIRECTOR ='JOHN LASSETER';
+
+3. Find all the movies (and director) not directed by John Lasseter
+---SELECT * FROM MOVIES WHERE DIRECTOR NOT LIKE 'JOHN LASSETER';
+
+4. Find all the WALL-* movies
+---SELECT * FROM MOVIES WHERE TITLE LIKE 'WALL%';
+
+-----
+
+4. FILTERING AND SORTING QUERY RESULTS
+
+-----
+
+1. List all directors of Pixar movies (alphabetically), without duplicates
+---SELECT DISTINCT DIRECTOR FROM MOVIES ORDER BY DIRECTOR ASC;
+
+2. List the last four Pixar movies released (ordered from most recent to least)
+---SELECT TITLE, YEAR FROM MOVIES ORDER BY YEAR DESC LIMIT 4;
+
+3. List the first five Pixar movies sorted alphabetically
+---SELECT TITLE FROM MOVIES ORDER BY TITLE ASC LIMIT 5;
+
+4. List the next five Pixar movies sorted alphabetically
+---SELECT TITLE FROM MOVIES ORDER BY TITLE ASC LIMIT 5 OFFSET 5;
+
+
+
+
+
 
 
