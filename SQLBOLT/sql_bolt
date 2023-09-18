@@ -1,0 +1,10 @@
+
+
+sql practice questions were collected from sqlbolt https://sqlbolt.com/ .
+
+  #### SELECT QUERIES
+----  
+1. Find the title of each film
+---SELECT TITLE FROM MOVIES;
+
+
