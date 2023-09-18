@@ -2,9 +2,12 @@
 
 sql practice questions were collected from sqlbolt https://sqlbolt.com/ .
 
-  #### SELECT QUERIES
+SELECT QUERIES
 ----  
 1. Find the title of each film
 ---SELECT TITLE FROM MOVIES;
+
+2. Find the director of each film
+---SELECT DIRECTOR FROM MOVIES;
 
 
