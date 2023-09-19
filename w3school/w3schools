@@ -1,1 +1,271 @@
+EXERCISE 1: SELECT
+
+1. Insert the missing statement to get all the columns from the Customers table.
+   SELECT * FROM CUSTOMERS;
+
+2. Write a statement that will select the City column from the Customers table.
+   SELECT CITY FROM CUSTOMERS;
+
+3. Select all the different values from the Country column in the Customers table.
+   SELECT DISTINCT COUNTRY FROM CUSTOMERS;
+
+EXERCISE 2: SQL WHERE
+
+1. Select all records where the City column has the value "Berlin".
+   SELECT * FROM CUSTOMERS WHERE CITY = "BERLIN";
+
+2. Use the NOT keyword to select all records where City is NOT "Berlin".
+   SELECT * FROM CUSTOMERS WHERE NOT City = "BERLIN";
+
+3. Select all records where the CustomerID column has the value 32.
+   SELECT * FROM CUSTOMERS WHERE CustomerID =32;
+
+4. Select all records where the City column has the value 'Berlin' and the PostalCode column has the value 12209.
+   SELECT * FROM CUSTOMERS WHERE CITY = "BERLIN" AND POSTALCODE = 12209;
+
+5. Select all records where the City column has the value 'Berlin' or 'London'.
+   SELECT * FROM CUSTOMERS WHERE City = "BERLIN" OR CITY= "LONDON";
+
+EXERCISE 3: SQL ORDER BY
+
+1. Select all records from the Customers table, sort the result alphabetically by the column City.
+   SELECT * FROM CUSTOMERS ORDER BY CITY;
+
+2. Select all records from the Customers table, sort the result reversed alphabetically by the column City.
+   SELECT * FROM CUSTOMERS ORDER BY CITY DESC;
+
+3. Select all records from the Customers table, sort the result alphabetically, first by the column Country, then, by the column City.
+   SELECT * FROM CUSTOMERS ORDER BY COUNTRY,CITY;
+
+EXERCISE 4: SQL INSERT
+
+1. Insert a new record in the Customers table.
+   INSERT INTO CUSTOMERS(CUSTOMERNAME,ADDRESS,CITY,POSTALCODE,COUNTRY)
+   VALUES('HEKKAN BURGER','GATEVEIEN 15','SADNESS','4306','NORWAY');
+
+EXERCISE 5: SQL NULL
+
+1. Select all records from the Customers where the PostalCode column is empty.
+   SELECT * FROM CUSTOMERS WHERE POSTALCODE IS NULL;
+
+2. Select all records from the Customers where the PostalCode column is NOT empty.
+   SELECT * FROM CUSTOMERS WHERE POSTALCODE IS NOT NULL;
+
+EXERCISE 6: SQL UPDATE
+
+1. Update the City column of all records in the Customers table.
+   UPDATE CUSTOMERS SET CITY="OSLO";
+
+2. Set the value of the City columns to 'Oslo', but only the ones where the Country column has the value "Norway".
+   UPDATE CUSTOMERS SET CITY = "OSLO" WHERE COUNTRY = 'NORWAY';
+
+3. Update the City value and the Country value.
+   UPDATE CUSTOMERS SET CITY = "OSLO" , COUNTRY="NORWAY" WHERE CUSTOMERID=32;
+
+EXERCISE 7: SQL UPDATE
+
+1. Delete all the records from the Customers table where the Country value is 'Norway'.
+   DELETE FROM CUSTOMERS WHERE COUNTRY="NORWAY";
+
+2. Delete all the records from the Customers table.
+   DELETE FROM CUSTOMERS;
+
+EXERCISE 8: SQL FUNCTIONS
+
+1. Use the MIN function to select the record with the smallest value of the Price column.
+   SELECT MIN(PRICE) FROM PRODUCTS;
+
+2. Use an SQL function to select the record with the highest value of the Price column.
+   SELECT MAX(PRICE) FROM PRODUCTS;
+
+3. Use the correct function to return the number of records that have the Price value set to 18.
+   SELECT COUNT(*)FROM PRODUCTS WHERE PRICE = 18;
+
+4. Use an SQL function to calculate the average price of all products.
+   SELECT AVG(PRICE)FROM PRODUCTS;
+
+5. Use an SQL function to calculate the sum of all the Price column values in the Products table.
+   SELECT AVG(PRICE)FROM PRODUCTS;
+
+EXERCISE 9: SQL LIKE
+
+1. Select all records where the value of the City column starts with the letter "a".
+   SELECT * FROM CUSTOMERS WHERE CITY LIKE "A%";
+
+2. Select all records where the value of the City column ends with the letter "a".
+   SELECT * FROM CUSTOMERS WHERE CITY LIKE "%A";
+
+3. Select all records where the value of the City column contains the letter "a".
+   SELECT * FROM CUSTOMERS WHERE CITY LIKE "%A%";
+
+4. Select all records where the value of the City column starts with letter "a" and ends with the letter "b".
+   SELECT * FROM CUSTOMERS WHERE CITY LIKE "A%B";
+
+5. Select all records where the value of the City column does NOT start with the letter "a".
+   SELECT * FROM CUSTOMERS WHERE CITY NOT LIKE "%A";
+
+EXERCISE 10: SQL LIKE
+
+1. Select all records where the second letter of the City is an "a".
+   SELECT * FROM CUSTOMERS WHERE CITY LIKE "_A%";
+
+2. Select all records where the first letter of the City is an "a" or a "c" or an "s".
+   SELECT * FROM CUSTOMERS WHERE CITY LIKE "[ACS]%";
+
+3. Select all records where the first letter of the City starts with anything from an "a" to an "f".
+   SELECT * FROM CUSTOMERS WHERE CITY LIKE "[A-F]%";
+
+4. Select all records where the first letter of the City is NOT an "a" or a "c" or an "f".
+   SELECT * FROM CUSTOMERS WHERE CITY LIKE "[!ACF]%";
+
+EXERCISE 11: SQL IN
+
+1. Use the IN operator to select all the records where Country is either "Norway" or "France".
+   SELECT * FROM CUSTOMERS WHERE COUNTRY IN ('NORWAY','FRANCE');
+
+2. Use the IN operator to select all the records where Country is NOT "Norway" and NOT "France".
+   SELECT * FROM CUSTOMERS WHERE COUNTRY NOT IN('NORWAY', 'FRANCE');
+
+EXERCISE 12: SQL BETWEEN
+
+1. Use the BETWEEN operator to select all the records where the value of the Price column is between 10 and 20.
+   SELECT * FROM PRODUCTS WHERE PRICE BETWEEN 10 AND 20;
+
+2. Use the BETWEEN operator to select all the records where the value of the Price column is NOT between 10 and 20.
+   SELECT * FROM PRODUCTS WHERE PRICE NOT BETWEEN 10 AND 20;
+
+3. Use the BETWEEN operator to select all the records where the value of the ProductName column is alphabetically between 'Geitost' and 'Pavlova'.
+   SELECT * FROM PRODUCTS WHERE PRODUCTNAME BETWEEN 'GEITOST' AND 'PAVLOVA'
+
+EXERCISE 13: SQL ALIAS
+
+1. When displaying the Customers table, make an ALIAS of the PostalCode column, the column should be called Pno 
+   instead.
+   SELECT CUSTOMERNAME,ADDRESS,POSTALCODE AS PNO FROM CUSTOMERS;
+
+2. When displaying the Customers table, refer to the table as Consumers instead of Customers.
+   SELECT * FROM CUSTOMERS AS CONSUMERS;
+
+EXERCISE 14: SQL JOINS
+
+1. Insert the missing parts in the JOIN clause to join the two tables Orders and Customers, 
+   using the CustomerID field in both tables as the relationship between the two tables.
+   SELECT * FROM ORDERS LEFT JOIN CUSTOMERS ON ORDERS.CUSTOMERID = CUSTOMERS.CUSTOMERID;
+
+2. Choose the correct JOIN clause to select all records from the two tables where there is a match in both tables.
+   SELECT * FROM ORDERS INNER JOIN CUSTOMERS ON ORDERS.CustomerID=CUSTOMER.CUSTOMERIID;
+
+3. Choose the correct JOIN clause to select all the records from the Customers table plus all the matches in the Orders table.
+   SELECT * FROM ORDERS RIGHT JOIN CUSTOMERS ON ORDERS.CUSTOMERID=CUSTOMERS.CUSTOMERID;
+
+EXERCISE 15: SQL GROUP BY
+
+1. List the number of customers in each country.
+   SELECT COUNT(CUSTOMERID),COUNTRY FROM CUSTOMERS GROUP BY COUNTRY;
+
+2. List the number of customers in each country, ordered by the country with the most customers first.
+   SELECT COUNT(CUSTOMERID),COUNTRY FROM CUSTOMERS GROUP BY COUNTRY ORDER BY COUNT(CUSTOMERID) DESC;
+
+EXERCISE 16: SQL DATABASE
+
+1. Write the correct SQL statement to create a new database called testDB.
+   CREATE DATABASE TESTDB;
+
+2. Write the correct SQL statement to delete a database named testDB.
+   DROP DATABASE TESTDB;
+
+3. Write the correct SQL statement to create a new table called Persons.
+   CREATE TABLE PERSONS
+   (
+  PERSONID INT,
+  LASTNAME VARCHAR(255),
+  FIRSTNAME VARCHAR(255),
+  ADDRESS VARCHAR(255),
+  CITY VARCHAR(255) 
+   );
+
+4. Write the correct SQL statement to delete a table called Persons.
+   DROP TABLE PERSONS;
+
+5. Use the TRUNCATE statement to delete all data inside a table.
+   TRUNCATE TABLE PERSONS;
+
+6. Add a column of type DATE called Birthday.
+   ALTER TABLE PERSONS ADD BIRTHDAY DATE;
+
+7. Delete the column Birthday from the Persons table.
+   ALTER TABLE PERSONS DROP COLUMN BIRTHDAY;
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
