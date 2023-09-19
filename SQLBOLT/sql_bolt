@@ -73,6 +73,65 @@ This can be helpful for students and other professions to improve their skills.
 4. List the next five Pixar movies sorted alphabetically
 ---SELECT TITLE FROM MOVIES ORDER BY TITLE ASC LIMIT 5 OFFSET 5;
 
+-----
+
+5. SIMPLE SELECT QUERIES
+
+-----
+
+1. List all the Canadian cities and their populations
+---SELECT CITY, POPULATION FROM NORTH_AMERICAN_CITIES
+WHERE COUNTRY = "CANADA";
+
+2. Order all the cities in the United States by their latitude from north to south
+---SELECT CITY, LATITUDE FROM NORTH_AMERICAN_CITIES WHERE COUNTRY = "UNITED STATES" ORDER BY LATITUDE DESC;
+
+3. List all the cities west of Chicago, ordered from west to east
+---SELECT CITY, LONGITUDE FROM NORTH_AMERICAN_CITIES WHERE LONGITUDE < -87.629798 ORDER BY LONGITUDE ASC;
+
+4. List the two largest cities in Mexico (by population)
+---SELECT city, population FROM NORTH_AMERICAN_CITIES WHERE COUNTRY LIKE "MEXICO" ORDER BY POPULATION DESC LIMIT 2;
+
+5. List the third and fourth largest cities (by population) in the United States and their population
+---SELECT city, population FROM NORTH_AMERICAN_CITIES WHERE COUNTRY LIKE "UNITED STATES" ORDER BY POPULATION DESC LIMIT 2 OFFSET 2;
+
+-----
+
+6. MULTI-QUERY TABLES WITH JOINS
+
+-----
+
+1. Find the domestic and international sales for each movie
+---SELECT TITLE,DOMESTIC_SALES,INTERNATIONAL_SALES FROM MOVIES M JOIN BOXOFFICE B ON M.ID=B.MOVIE_ID
+
+2. Show the sales numbers for each movie that did better internationally rather than domestically
+---SELECT TITLE, DOMESTIC_SALES, INTERNATIONAL_SALES FROM MOVIES JOIN BOXOFFICE ON MOVIES.ID = BOXOFFICE.MOVIE_ID 
+WHERE INTERNATIONAL_SALES > DOMESTIC_SALES;
+
+3. List all the movies by their ratings in descending order
+---SELECT M.TITLE,B.RATING FROM MOVIES M JOIN BOXOFFICE B ON M.ID=B.MOVIE_ID ORDER BY RATING DESC;
+
+-----
+
+7. OUTER JOINS
+
+-----
+
+1. Find the list of all buildings that have employees
+---SELECT DISTINCT BUILDING FROM EMPLOYEES;
+
+2. Find the list of all buildings and their capacity
+---SELECT * FROM BUILDINGS;
+
+3. List all buildings and the distinct employee roles in each building (including empty buildings)
+---SELECT DISTINCT BUILDING_NAME, ROLE FROM BUILDINGS LEFT JOIN EMPLOYEES
+    ON BUILDING_NAME = BUILDING;
+
+
+
+
+
+
 
 
 
