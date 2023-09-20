@@ -127,6 +127,60 @@ WHERE INTERNATIONAL_SALES > DOMESTIC_SALES;
 ---SELECT DISTINCT BUILDING_NAME, ROLE FROM BUILDINGS LEFT JOIN EMPLOYEES
     ON BUILDING_NAME = BUILDING;
 
+------
+
+8. SQL NULL
+
+-----
+
+1. Find the name and role of all employees who have not been assigned to a building
+---SELECT NAME,ROLE FROM EMPLOYEES WHERE BUILDING IS NULL;
+
+2. Find the names of the buildings that hold no employees
+---SELECT DISTINCT BUILDING_NAME FROM BUILDINGS LEFT JOIN EMPLOYEES ON BUILDING_NAME = BUILDING WHERE ROLE IS NULL;
+
+-----
+
+9. QUERIES WITH EXPRESSIONS
+
+1. List all movies and their combined sales in millions of dollars
+---SELECT TITLE, (DOMESTIC_SALES + INTERNATIONAL_SALES)/1000000 AS GROSS_SALES_MILLIONS FROM MOVIES JOIN BOXOFFICE ON MOVIES.ID=BOXOFFICE.MOVIE_ID;
+
+2. List all movies and their ratings in percent
+--- SELECT M.TITLE,B.RATING * 10 AS RATING_PERCENT FROM MOVIES M JOIN BOXOFFICE B WHERE M.ID=B.MOVIE_ID;
+
+3. List all movies that were released on even number years
+---SELECT TITLE FROM MOVIES WHERE YEAR % 2=0;
+
+10. QUERIES WITH AGGREGATES-I
+
+1. Find the longest time that an employee has been at the studio
+---SELECT MAX(YEARS_EMPLOYED) AS LONGEST_TIME FROM EMPLOYEES;
+
+2. For each role, find the average number of years employed by employees in that role
+---SELECT ROLE,AVG(YEARS_EMPLOYED)AS AVERAGE_YEARS_EMPLOYED FROM EMPLOYEES GROUP BY ROLE;
+
+3. Find the total number of employee years worked in each building 
+---SELECT BUILDING, SUM(YEARS_EMPLOYED) AS TOTAL_YEARS_EMPLOYED FROM EMPLOYEES GROUP BY BUILDING;
+
+11. QUERIES WITH AGGREGATES-II
+
+1. Find the number of Artists in the studio (without a HAVING clause)
+---SELECT COUNT(ROLE) FROM EMPLOYEES WHERE ROLE='Artist';
+
+2. Find the number of Employees of each role in the studio
+---SELECT COUNT(NAME),ROLE FROM EMPLOYEES GROUP BY ROLE; 
+
+3. Find the total number of years employed by all Engineers
+---SELECT ROLE,SUM(YEARS_EMPLOYED)FROM EMPLOYEES GROUP BY ROLE HAVING ROLE="ENGINEER"
+
+1. Find the number of movies each director has directed
+---SELECT COUNT(TITLE),DIRECTOR FROM movies GROUP BY DIRECTOR;
+
+2. Find the total domestic and international sales that can be attributed to each director
+---SELECT DIRECTOR, SUM(DOMESTICS_SALES + INTERNATIONAL_SALES)AS CUMMULATIVE_SALES_FROM_ALL_MOVIES FROM MOVIES 
+   INNER JOIN BOXOFFICE ON MOVIES.ID=BOXOFFICE.MOVIES_ID GROUP BY DIRECTOR;
+
 
 
 
