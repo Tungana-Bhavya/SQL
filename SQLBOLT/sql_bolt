@@ -1,5 +1,5 @@
 
-SQL Queries were collected from the sqlbolt website https://sqlbolt.com/. Section wise various queries with answers were provided below.
+SQL Queries were collected from the sqlbolt website https://sqlbolt.com/. Section wise various queries with  my answers were provided below.
 This can be helpful for students and other professions to improve their skills.
 
 1. SELECT QUERIES
@@ -163,6 +163,8 @@ WHERE INTERNATIONAL_SALES > DOMESTIC_SALES;
 3. Find the total number of employee years worked in each building 
 ---SELECT BUILDING, SUM(YEARS_EMPLOYED) AS TOTAL_YEARS_EMPLOYED FROM EMPLOYEES GROUP BY BUILDING;
 
+------
+
 11. QUERIES WITH AGGREGATES-II
 
 1. Find the number of Artists in the studio (without a HAVING clause)
@@ -174,12 +176,90 @@ WHERE INTERNATIONAL_SALES > DOMESTIC_SALES;
 3. Find the total number of years employed by all Engineers
 ---SELECT ROLE,SUM(YEARS_EMPLOYED)FROM EMPLOYEES GROUP BY ROLE HAVING ROLE="ENGINEER"
 
+-----
+
+12. ORDER OF EXECUTION OF QUERY
+
 1. Find the number of movies each director has directed
 ---SELECT COUNT(TITLE),DIRECTOR FROM movies GROUP BY DIRECTOR;
 
 2. Find the total domestic and international sales that can be attributed to each director
 ---SELECT DIRECTOR, SUM(DOMESTICS_SALES + INTERNATIONAL_SALES)AS CUMMULATIVE_SALES_FROM_ALL_MOVIES FROM MOVIES 
    INNER JOIN BOXOFFICE ON MOVIES.ID=BOXOFFICE.MOVIES_ID GROUP BY DIRECTOR;
+
+-----
+
+13. INSERTING ROWS
+
+1. Add the studio's new production, Toy Story 4 to the list of movies (you can use any director)
+---INSERT INTO MOVIES VALUES (4, "Toy Story 4", "SL DIRECTOR", 2018, 95);
+
+2. Toy Story 4 has been released to critical acclaim! It had a rating of 8.7, and made 340 
+   million domestically and 270 million internationally. Add the record to the BoxOffice table.
+---INSERT INTO BOXOFFICE VALUES (4, 8.7, 340000000, 270000000);
+
+-----
+
+14. UPDATING ROWS
+
+1. The director for A Bug's Life is incorrect, it was actually directed by John Lassete
+---UPDATE MOVIES SET DIRECTOR = "John Lasseter" WHERE ID= 2;
+
+2. The year that Toy Story 2 was released is incorrect, it was actually released in 1999
+---UPDATE MOVIES SET YEAR=1999 WHERE ID=3;
+
+3. Both the title and director for Toy Story 8 is incorrect! The title should be "Toy Story 3" and it was directed by Lee Unkrich
+---UPDATE MOVIES SET TITLE = 'Toy Story 3' AND DIRECTOR='Lee unkrich' WHERE ID=11;
+
+-----
+
+15. DELETING ROWS
+
+1. This database is getting too big, lets remove all movies that were released before 2005.
+---DELETE FROM MOVIES WHERE YEAR<2005;
+
+2. Andrew Stanton has also left the studio, so please remove all movies directed by him
+---DELETE FROM MOVIES WHERE DIRECTOR="Andrew Stanton";
+
+-----
+
+16. CREATING TABLES
+
+1. Create a new table named Database with the following columns:
+– Name A string (text) describing the name of the database
+– Version A number (floating point) of the latest version of this database
+– Download_count An integer count of the number of times this database was downloaded
+  This table has no constraints. 
+  CREATE TABLE DATABASE
+  (
+  NAME TEXT,
+  VERSION NUMBER,
+  DOWNLOAD_COUNT INTEGER
+  );
+
+-----
+
+17. ALTERING TABLES
+
+1. Add a column named Aspect_ratio with a FLOAT data type to store the aspect-ratio each movie was released in.
+---ALTER TABLE MOVIES
+   ADD COLUMN ASPECT_RATIO FLOAT DEFAULT 2.39;
+
+2. Add another column named Language with a TEXT data type to store the language that the movie was released in.
+   Ensure that the default for this language is English.
+---ALTER TABLE MOVIES ADD COLUMN LANGUAGE TEXT DEFAULT ENGLISH;
+
+-----
+
+18. DROPPING TABLES 
+
+1. We've sadly reached the end of our lessons, lets clean up by removing the Movies table
+---DROP TABLE  IF EXISTS MOVIES;
+
+2. And drop the BoxOffice table as well
+---DROP TABLE IF EXISTS BOXOFFICE;
+
+
 
 
 
