@@ -39,4 +39,8 @@ The below are my solutions to the various queries and challenges
 -----
 #### DataLemur
 
+|ID| QUESTION                | ANSWER               |IMAGE|
+|--|------------------------ |----------------------|----:|
+|1 |[Data Science Skills](https://datalemur.com/questions/matching-skills) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_1.DATASCIENCE_SKILLS.sql)|[click me](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_1_DATASCIENCE_SKILLS.jpg)
+
 
