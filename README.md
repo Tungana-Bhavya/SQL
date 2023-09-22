@@ -11,6 +11,16 @@ SQL is the one of the basis for relational database. SQL provides various comman
 
 ----
 The below are my solutions to the various queries and challenges
+#### Leetcode
+
+|ID| QUESTION                | ANSWER               |IMAGE|
+|--|------------------------ |----------------------|-----:|
+|1 |[Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_RECYCLABLE_%26_LOW_%20FAT_%20PRODUCT.sql)
+
+
+
+
+
 #### HackerRank
 
 |ID| QUESTION                | ANSWER               |
