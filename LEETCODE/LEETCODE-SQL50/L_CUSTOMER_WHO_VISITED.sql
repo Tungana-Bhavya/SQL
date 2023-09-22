@@ -1,0 +1,10 @@
+ Customer Who Visited but Did Not Make Any Transactions
+
+
+------
+
+
+SELECT CUSTOMER_ID,COUNT(VISIT_ID) AS COUNT_NO_TRANS 
+FROM VISITS WHERE VISIT_ID NOT IN (SELECT VISIT_ID 
+from Transactions GROUP BY VISIT_ID)
+GROUP BY CUSTOMER_ID;
