@@ -13,9 +13,26 @@ SQL is the one of the basis for relational database. SQL provides various comman
 The below are my solutions to the various queries and challenges
 #### Leetcode
 
-|ID| QUESTION                | ANSWER               |IMAGE|
-|--|------------------------ |----------------------|-----:|
+|ID| QUESTION                | ANSWER               |
+|--|------------------------ |---------------------:|
 |1 |[Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_RECYCLABLE_%26_LOW_%20FAT_%20PRODUCT.sql)
+|2 |[Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_FIND_CUSTOMER_REFERENCE.sql)
+|3 |[Big Countries](https://leetcode.com/problems/big-countries/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_BIG_COUNTRIES.sql)
+|4 |[Article Views I](https://leetcode.com/problems/article-views-i/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_ARTICLE_VIEW_I.sql)
+|5 |[Invalid Tweets](https://leetcode.com/problems/invalid-tweets/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_INVALID_TWEETS.sql)
+|6 |[Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/) | [Solution](https://github.com/Tungana-Bhavya/SQL/tree/main/LEETCODE/LEETCODE-SQL50)
+|7 |[Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_PRODUCT_SALES_ANALYSIS_I.sql)
+|8 |[Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_CUSTOMER_WHO_VISITED.sql)
+|9 |[Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_RISING_TEMPERATURE.sql)
+|10|[Employee Bonus](https://leetcode.com/problems/employee-bonus/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_EMPLOYEE_BONUS.sql)
+|11|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_NOT_BORING_MOVIES.sql)
+|12 |[Project Employees I](https://leetcode.com/problems/project-employees-i/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_PROJECT_EMPLOYEE_I.sql)
+|13|[Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_QUERIES_QUALITY.sql)
+|14|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_CLASS_MORE_THAN_FIVE.sql)
+|15|[Find Followers Count](https://leetcode.com/problems/find-followers-count/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_FIND_FOLLOWERS_COUNT.sql)
+|16|[Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_BIGGEST_SINGLE_NUMBER.sql)
+|17|[Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_CUSTOMERS_WHO_BOUGHT.sql)
+
 
 
 
