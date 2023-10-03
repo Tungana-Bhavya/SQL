@@ -1,5 +1,14 @@
 ## Content 
+
 -------
+
+1. Description of SQL
+2. Leetcode Solutions
+3. Hackerrank Solutions
+4. DataLemur Solutions
+
+-------
+
 #### SQL
 
 Structured Query Language(SQL) is special purpose programming language which is  designed for managing relational database.
@@ -76,5 +85,8 @@ The below are my solutions to the various queries and challenges
 |8 |[Cards Issued Difference](https://datalemur.com/questions/cards-issued-difference)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_8_CARDS_ISSUED_DIFFERENCE.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_8_CARDS_ISSUED_DIFFERENCE.jpg)
 |9 |[Compressed Mean](https://datalemur.com/questions/alibaba-compressed-mean)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_9_COMPRESSED_MEAN.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_9_COMPRESSED_MEAN.jpg)
 |10 |[Pharmacy Analytics (Part 1)](https://datalemur.com/questions/top-profitable-drugs)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_10_PHARMACY_ANALYTICS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_10_PHARMACY_ANALYTICS.jpg)
-
+|11 |[Pharmacy Analytics (Part 2)](https://datalemur.com/questions/non-profitable-drugs)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_11_PHARMACY_ANALYTICS_II.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_11_PHARMACY_ANALYTICS_II.jpg)
+|12 |[App Click-through Rate (CTR)](https://datalemur.com/questions/click-through-rate)]|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_12_APP_CLICK.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_12_APP_CLICK.jpg)
+|13 |[Duplicate Job Listings ](https://datalemur.com/questions/duplicate-job-listings)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_13_DUPLICATE_JOB_LISTINGS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_13_DUPLICATE_JOB_LISTINGS.jpg)
+|14 |[Average Post Hiatus (Part 1)](https://datalemur.com/questions/sql-average-post-hiatus-1)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_14_AVERAGE_POST_HIATUS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_14_AVERAGE_POST_HIATUS.jpg)
 
