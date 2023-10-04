@@ -3,9 +3,10 @@
 -------
 
 1. Description of SQL
-2. Leetcode Solutions
-3. Hackerrank Solutions
-4. DataLemur Solutions
+2. StrataScratch Solutions
+3. Leetcode Solutions
+4. Hackerrank Solutions
+5. DataLemur Solutions
 
 -------
 
@@ -20,6 +21,17 @@ SQL is the one of the basis for relational database. SQL provides various comman
 
 ----
 The below are my solutions to the various queries and challenges
+
+#### StrataScratch
+
+|ID| QUESTION                | ANSWER               |OUTPUT|
+|--|------------------------ |-------|--------------------:|
+|1|[Salaries Differences](https://platform.stratascratch.com/coding/10308-salaries-differences?code_type=1)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_1_SALARY_DIFFERENCES.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_1_SALARY_DIFFERENCES.jpg)
+|2|[Finding Updated Records](https://platform.stratascratch.com/coding/10299-finding-updated-records?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_2_FINDING_UPDATED_RECORDS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_2_FINDING_UPDATED_RECORDS.jpg)
+|3|[Unique Users Per Client Per Month](https://platform.stratascratch.com/coding/2024-unique-users-per-client-per-month?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_3_UNIQUE_USERS_PER_CLIENT_PER_MONTH.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_3_UNIQUE_USERS_PER_CLIENT_PER_MONTH.jpg)
+|4|[Bikes Last Used](https://platform.stratascratch.com/coding/10176-bikes-last-used?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_4_BIKES_LAST_USED.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_4_BIKES_LAST_USED.jpg)
+|5|[Reviews of Hotel Arena](https://platform.stratascratch.com/coding/10166-reviews-of-hotel-arena?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_5_REVIEWS_OF_HOTEL_ARENA.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_5_REVIEWS_OF_HOTEL_ARENA.jpg)
+
 
 #### Leetcode
 
@@ -73,7 +85,7 @@ The below are my solutions to the various queries and challenges
 -----
 #### DataLemur
 
-|ID| QUESTION                | ANSWER               |IMAGE|
+|ID| QUESTION                | ANSWER               |OUTPUT|
 |--|------------------------ |----------------------|----:|
 |1 |[Data Science Skills](https://datalemur.com/questions/matching-skills) |[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_1.DATASCIENCE_SKILLS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_1_DATASCIENCE_SKILLS.jpg)
 |2 |[Page With No Likes](https://datalemur.com/questions/sql-page-with-no-likes) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_2.PAGE_WITH_NO_LIKES.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_2_PAGE_WITH_NO_LIKES.jpg)
