@@ -24,13 +24,18 @@ The below are my solutions to the various queries and challenges
 
 #### StrataScratch
 
-|ID| QUESTION                | ANSWER               |OUTPUT|
+|ID| QUESTION                | ANSWER               |IMAGE|
 |--|------------------------ |-------|--------------------:|
 |1|[Salaries Differences](https://platform.stratascratch.com/coding/10308-salaries-differences?code_type=1)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_1_SALARY_DIFFERENCES.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_1_SALARY_DIFFERENCES.jpg)
 |2|[Finding Updated Records](https://platform.stratascratch.com/coding/10299-finding-updated-records?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_2_FINDING_UPDATED_RECORDS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_2_FINDING_UPDATED_RECORDS.jpg)
 |3|[Unique Users Per Client Per Month](https://platform.stratascratch.com/coding/2024-unique-users-per-client-per-month?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_3_UNIQUE_USERS_PER_CLIENT_PER_MONTH.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_3_UNIQUE_USERS_PER_CLIENT_PER_MONTH.jpg)
 |4|[Bikes Last Used](https://platform.stratascratch.com/coding/10176-bikes-last-used?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_4_BIKES_LAST_USED.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_4_BIKES_LAST_USED.jpg)
 |5|[Reviews of Hotel Arena](https://platform.stratascratch.com/coding/10166-reviews-of-hotel-arena?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_5_REVIEWS_OF_HOTEL_ARENA.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_5_REVIEWS_OF_HOTEL_ARENA.jpg)
+|6|[Count the number of movies that Abigail Breslin nominated for oscar](https://platform.stratascratch.com/coding/10128-count-the-number-of-movies-that-abigail-breslin-nominated-for-oscar?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_6_ABIGALI_BRESLIN.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_6_ABIGALI_BRESLIN.jpg)
+|7|[Popularity of Hack](https://platform.stratascratch.com/coding/10061-popularity-of-hack?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_7_POPULARITY_OF_HACKS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_7_POPULARITY_OF_HACKS.jpg)
+|8|[Lyft Driver Wages](https://platform.stratascratch.com/coding/10003-lyft-driver-wages?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_8_LIFT_DRIVER_WAGES.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_8_LIFT_DRIVER_WAGES.jpg)
+|9|[Find how many times each artist appeared on the Spotify ranking list](https://platform.stratascratch.com/coding/9992-find-artists-that-have-been-on-spotify-the-most-number-of-times?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_9_SPOTIFY_RANKING_LIST.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_9_SPOTIFY_RANKING_LIST.jpg)
+|10|[Find the base pay for Police Captains](https://platform.stratascratch.com/coding/9972-find-the-base-pay-for-police-captains?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_10_POLICE_CAPTAINS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_10_POLICE_CAPTAINS.jpg)
 
 
 #### Leetcode
@@ -85,7 +90,7 @@ The below are my solutions to the various queries and challenges
 -----
 #### DataLemur
 
-|ID| QUESTION                | ANSWER               |OUTPUT|
+|ID| QUESTION                | ANSWER               |IMAGE|
 |--|------------------------ |----------------------|----:|
 |1 |[Data Science Skills](https://datalemur.com/questions/matching-skills) |[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_1.DATASCIENCE_SKILLS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_1_DATASCIENCE_SKILLS.jpg)
 |2 |[Page With No Likes](https://datalemur.com/questions/sql-page-with-no-likes) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DL_EASY_2.PAGE_WITH_NO_LIKES.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/DATALEMUR-SQL-CHALLENGES/EASY/DATALEMUR_EASY_2_PAGE_WITH_NO_LIKES.jpg)
