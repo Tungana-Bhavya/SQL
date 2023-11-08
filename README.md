@@ -49,6 +49,8 @@ The below are my solutions to the various queries and challenges
 |21|[Order Details](https://platform.stratascratch.com/coding/9913-order-details?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_21_ORDER%20DETAILS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_21_ORDER%20DETAILS.jpg)
 |22|[Find all posts which were reacted to with a heart](https://platform.stratascratch.com/coding/10087-find-all-posts-which-were-reacted-to-with-a-heart?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_22_FIND_ALL_POSTS_WHICH_WERE_REACTED_TO_WITH_A_HEART.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_22_FIND_ALL_POSTS_WHICH_WERE_REACTED_TO_WITH_A_HEART.jpg)
 |23|[Most Lucrative Products](https://platform.stratascratch.com/coding/2119-most-lucrative-products?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_23_MOST_LUCRATIVE_PRODUCTS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_23_MOST_LUCRATIVE_PRODUCTS.jpg)
+|24|[Activity Rank](https://platform.stratascratch.com/coding/10351-activity-rank?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_24_ACTIVITY_RANK.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_24_ACTIVITY_RANK.jpg)
+|25|[New Products](https://platform.stratascratch.com/coding/10318-new-products?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_25_NEW_PRODUCTS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_25_NEW_PRODUCTS.jpg)
 
 #### Leetcode
 
