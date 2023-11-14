@@ -75,6 +75,9 @@ The below are my solutions to the various queries and challenges
 |17|[Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_CUSTOMERS_WHO_BOUGHT.sql)
 |18|[Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_FIX_NAMES_TABLE.sql)
 |19|[Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_PATIENTS_WITH_CONDITION.sql)
+|20|[Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_AVERAGE_TIME_OF_PROCESS_PER_MACHINE.sql)
+|21|[Employees Whose Manager Left the Company](https://leetcode.com/problems/patients-with-a-condition/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_EMPLOYEE_WHOSE_MANAGER_LEFT_THE_COMPANY.sql)
+
 
 #### HackerRank
 
