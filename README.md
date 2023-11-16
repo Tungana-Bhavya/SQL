@@ -51,6 +51,15 @@ The below are my solutions to the various queries and challenges
 |23|[Most Lucrative Products](https://platform.stratascratch.com/coding/2119-most-lucrative-products?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_23_MOST_LUCRATIVE_PRODUCTS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_23_MOST_LUCRATIVE_PRODUCTS.jpg)
 |24|[Activity Rank](https://platform.stratascratch.com/coding/10351-activity-rank?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_24_ACTIVITY_RANK.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_24_ACTIVITY_RANK.jpg)
 |25|[New Products](https://platform.stratascratch.com/coding/10318-new-products?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_25_NEW_PRODUCTS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_25_NEW_PRODUCTS.jpg)
+|26|[Number Of Units Per Nationality](https://platform.stratascratch.com/coding/10156-number-of-units-per-nationality?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_26_NO_OF_UNITS_PER_NATIONALITY.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_26_NO_OF_UNITS_PER_NATIONALITY.jpg)
+|27|[Ranking Most Active Guests](https://platform.stratascratch.com/coding/10159-ranking-most-active-guests?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_27_RANKING_MOSTS_ACTIVE_GUESTS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_27_RANKING_MOSTS_ACTIVE_GUESTS.jpg)
+|28|[Find the top 10 ranked songs in 2010](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_28_TOP_TEN_RANKED_SONGS_IN_2010.sql)| [Solution]()|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_28_TOP_TEN_RANKED_SONGS_IN_2010.jpg)
+|29|[Top Cool Votes](https://platform.stratascratch.com/coding/10060-top-cool-votes?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_29_TOP_COOL_VOTES.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_29_TOP_COOL_VOTES.jpg)
+|30|[Find matching hosts and guests in a way that they are both of the same gender and nationality](https://platform.stratascratch.com/coding/10078-find-matching-hosts-and-guests-in-a-way-that-they-are-both-of-the-same-gender-and-nationality?code_type=3)| [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_30_MATCHING_HOSTS_AND_GUESTS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_30_MATCHING_HOSTS_AND_GUESTS.jpg)
+
+
+
+
 
 #### Leetcode
 
