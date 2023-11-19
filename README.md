@@ -121,6 +121,7 @@ The below are my solutions to the various queries and challenges
 |18|[Higher Than 75 Marks](https://www.hackerrank.com/challenges/more-than-75-marks/problem) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/HACKERRANK/HACKERRANK-CHALLENGES/HR_Higher_Than_75_Marks.sql)
 |19|[Employee Names](https://www.hackerrank.com/challenges/name-of-employees/problem) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/HACKERRANK/HACKERRANK-CHALLENGES/HR_Employee_Names.sql)
 |20|[Employee Salaries](https://www.hackerrank.com/challenges/salary-of-employees/problem) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/HACKERRANK/HACKERRANK-CHALLENGES/HR_Employee_Salaries.sql)
+|21|[Placements](https://www.hackerrank.com/challenges/placements/problem?isFullScreen=true) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/HACKERRANK/HACKERRANK-CHALLENGES/HR_Placements.sql)
 
 -----
 #### DataLemur
