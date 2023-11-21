@@ -1,7 +1,7 @@
 ### Window Functions
 Window functions are one of the SQL functions that allows us to perform operations on window or a group of records. SQL Window functions were categorized into the following types:
 1. Aggregate Window Functions
-2. Ranking Window Functions
+2. [Ranking Window Functions](https://github.com/Tungana-Bhavya/SQL/blob/main/ADVANCED_SQL/WINDOW_FUNCTIONS/RANKING/RANKING_WINDOW_FUNCTIONS.sql)
 3. Value Window Functions
 
 |Aggregate Functions| Ranking Functions| Value Functions|
