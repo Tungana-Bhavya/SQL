@@ -122,6 +122,10 @@ The below are my solutions to the various queries and challenges
 |19|[Employee Names](https://www.hackerrank.com/challenges/name-of-employees/problem) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/HACKERRANK/HACKERRANK-CHALLENGES/HR_Employee_Names.sql)
 |20|[Employee Salaries](https://www.hackerrank.com/challenges/salary-of-employees/problem) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/HACKERRANK/HACKERRANK-CHALLENGES/HR_Employee_Salaries.sql)
 |21|[Placements](https://www.hackerrank.com/challenges/placements/problem?isFullScreen=true) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/HACKERRANK/HACKERRANK-CHALLENGES/HR_Placements.sql)
+|22|[Binary Tree Nodes](https://www.hackerrank.com/challenges/binary-search-tree-1/problem?isFullScreen=true) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/HACKERRANK/HACKERRANK-CHALLENGES/HR_Binary_Tree_Nodes.sql)
+|23|[New Companies](https://www.hackerrank.com/challenges/the-company/problem?isFullScreen=true) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/HACKERRANK/HACKERRANK-CHALLENGES/HR_New%20Companies.sql)
+|24|[Weather Observation Station 18](https://www.hackerrank.com/challenges/weather-observation-station-18/problem?isFullScreen=true) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/HACKERRANK/HACKERRANK-CHALLENGES/HR_Weather_Observation_Station_18.sql)
+|25|[Weather Observation Station 19](https://www.hackerrank.com/challenges/weather-observation-station-19/problem?isFullScreen=true) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/HACKERRANK/HACKERRANK-CHALLENGES/HR_Weather_Observation_Station_19.sql)
 
 -----
 #### DataLemur
