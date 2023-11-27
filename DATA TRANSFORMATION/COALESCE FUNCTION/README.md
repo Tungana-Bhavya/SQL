@@ -13,7 +13,7 @@ Coalesce function returns the first non-null value in a list. If all the values 
 |EXAMPLE 3|SELECT COALESCE (NULL, 150, 'SQL', 'NO_SQL') res3|150|[OUTPUT](https://github.com/Tungana-Bhavya/SQL/blob/main/DATA%20TRANSFORMATION/COALESCE%20FUNCTION/IMAGES/C_3.jpg)|
 |EXAMPLE 4|SELECT COALESCE (NULL, 100, 110, 150) res4|100|[OUTPUT](https://github.com/Tungana-Bhavya/SQL/blob/main/DATA%20TRANSFORMATION/COALESCE%20FUNCTION/IMAGES/C_4.jpg)|
 |EXAMPLE 5|SELECT COALESCE (NULL, 150, NULL) res5|150|[OUTPUT](https://github.com/Tungana-Bhavya/SQL/blob/main/DATA%20TRANSFORMATION/COALESCE%20FUNCTION/IMAGES/C_5.jpg)|
-|EXAMPLE 6|SELECT COALESCE(NULL, NULL, NULL, 'www.google.com', NULL, 'www.github.com') res6|www.github.com|[OUTPUT](https://github.com/Tungana-Bhavya/SQL/blob/main/DATA%20TRANSFORMATION/COALESCE%20FUNCTION/IMAGES/C_6.jpg)|
+|EXAMPLE 6|SELECT COALESCE(NULL, NULL, NULL, 'www.google.com', NULL, 'www.github.com') res6|www.google.com|[OUTPUT](https://github.com/Tungana-Bhavya/SQL/blob/main/DATA%20TRANSFORMATION/COALESCE%20FUNCTION/IMAGES/C_6.jpg)|
 |EXAMPLE 7|SELECT COALESCE(NULL, 100, 200, 'www.google.com') as res7|100|[OUTPUT](https://github.com/Tungana-Bhavya/SQL/blob/main/DATA%20TRANSFORMATION/COALESCE%20FUNCTION/IMAGES/C_7.jpg)|
 
 <b>EXAMPLE 8:</b> <br>
