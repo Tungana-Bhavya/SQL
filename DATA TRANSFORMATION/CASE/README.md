@@ -13,5 +13,15 @@
 - If the condition evaluates to true then the statement returns value, otherwise returns the value of ELSE portion.
 - Once the condition is met, the CASE statement will stop verifying further and it will return the result.
 - A NULL value is returned in the absence of an ELSE part(optional) and when none of the conditions evaluates to True.
+- Example:
+
+  SELECT *, <br>
+CASE<br>
+	WHEN s1.age >= 18 THEN 'Eligible for Vote'<br>
+    WHEN s1.age < 18 THEN 'Not Eligible for Vote'<br>
+    ELSE "Invalid input for age"<br>
+END AS vote<br>
+FROM sampledata s1;<br>
+- Output: [👆](https://github.com/Tungana-Bhavya/SQL/blob/main/DATA%20TRANSFORMATION/CASE/CASE%20STATEMENT.jpg)
 
 
