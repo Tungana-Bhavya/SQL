@@ -96,6 +96,7 @@ The below are my solutions to the various queries and challenges
 |21|[Employees Whose Manager Left the Company](https://leetcode.com/problems/patients-with-a-condition/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_EMPLOYEE_WHOSE_MANAGER_LEFT_THE_COMPANY.sql)
 |22|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_SECOND_HIGHEST_SALARY.sql)
 |23|[Count Salary Categories](https://leetcode.com/problems/count-salary-categories/description/?envType=study-plan-v2&envId=top-sql-50) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_COUNT_SALARY_CATEGORIES.sql)
+|24|[Product Sales Analysis III](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_PRODUCT_SALE_ANALYSIS_III.sql)|[Solution](https://leetcode.com/problems/immediate-food-delivery-ii/description/?envType=study-plan-v2&envId=top-sql-50)
 
 #### HackerRank
 
