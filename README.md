@@ -96,7 +96,14 @@ The below are my solutions to the various queries and challenges
 |21|[Employees Whose Manager Left the Company](https://leetcode.com/problems/patients-with-a-condition/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_EMPLOYEE_WHOSE_MANAGER_LEFT_THE_COMPANY.sql)
 |22|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_SECOND_HIGHEST_SALARY.sql)
 |23|[Count Salary Categories](https://leetcode.com/problems/count-salary-categories/description/?envType=study-plan-v2&envId=top-sql-50) | [Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_COUNT_SALARY_CATEGORIES.sql)
-|24|[Product Sales Analysis III](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_PRODUCT_SALE_ANALYSIS_III.sql)|[Solution](https://leetcode.com/problems/immediate-food-delivery-ii/description/?envType=study-plan-v2&envId=top-sql-50)
+|24|[Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/description/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_PRODUCT_SALE_ANALYSIS_III.sql)
+|25|[Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/description/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_DEPARTMENT_TOP_THREE_SALARIES.sql)
+|26|[Group Sold Products By Date](https://leetcode.com/problems/group-sold-products-by-the-date/description/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_GROUP_SOLD_PRODUCTS_BY_DATE.sql)
+|27|[List The Products Ordered In a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_LIST_THE_PRODUCTS_ORDERED_IN_A_PERIOD.sql)
+|28|[Students and Examinations](https://leetcode.com/problems/students-and-examinations/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_STUDENTS_AND_EXAMINATIONS.sql)
+|29|[User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_USER_ACTIVITY_FOR_THE_PAST_30_DAYS_I.sql)
+|30|[Number Of Unique Subjects Taught By Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_NO_OF_UNIQUE_SUBJECTS_TAUGHT_BY_EACH_TEACHER.sql)
+|31|[Find Users With Valid Email](https://leetcode.com/problems/find-users-with-valid-e-mails/description/)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_FIND_USERS_WITH_VALID_EMAILS.sql)
 
 #### HackerRank
 
