@@ -1,0 +1,4 @@
+Delete Duplicate Emails
+------
+
+DELETE P FROM PERSON P, PERSON P1 WHERE P.EMAIL=P1.EMAIL AND P.ID>P1.ID; 
