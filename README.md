@@ -108,6 +108,9 @@ The below are my solutions to the various queries and challenges
 |29|[User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_USER_ACTIVITY_FOR_THE_PAST_30_DAYS_I.sql)
 |30|[Number Of Unique Subjects Taught By Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_NO_OF_UNIQUE_SUBJECTS_TAUGHT_BY_EACH_TEACHER.sql)
 |31|[Find Users With Valid Email](https://leetcode.com/problems/find-users-with-valid-e-mails/description/)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_FIND_USERS_WITH_VALID_EMAILS.sql)
+|32|[Managers With Five Atleast Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_MANAGERS_WITH_ATLEAST_FIVE.sql)
+|33|[Confirmation Rate](https://leetcode.com/problems/confirmation-rate/description/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_CONFIRMATION_RATE.sql)
+|34|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_DELETE_DUPLICATE_EMAILS.sql)
 
 #### HackerRank
 
