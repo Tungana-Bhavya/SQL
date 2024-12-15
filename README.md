@@ -121,6 +121,10 @@ The below are my solutions to the various queries and challenges
 |34|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_DELETE_DUPLICATE_EMAILS.sql)
 |35|[Percentage Of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_PERCENTAGE_OF_USERS_ATTENDED_A_CONTEST.sql)
 |36|[Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_MONTHLY_TRANSACTIONS.sql)
+|37|[Average Selling Price](https://leetcode.com/problems/average-selling-price/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_AVERAGE_SELLING_PRICE.sql)
+|38|[Triangle Judgement](https://leetcode.com/problems/triangle-judgement/description/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_TRIANGLE_JUDGEMENT.sql)
+|39|[Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_PRIMARY_DEPARTMENT_FOR_EACH_EMPLOYEE.sql)
+|40|[Exchange Seats](https://leetcode.com/problems/exchange-seats/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_EXCHANGE_SEATS.sql)
 
 #### HackerRank
 
