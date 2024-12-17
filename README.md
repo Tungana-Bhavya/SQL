@@ -127,6 +127,7 @@ The below are my solutions to the various queries and challenges
 |40|[Exchange Seats](https://leetcode.com/problems/exchange-seats/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_EXCHANGE_SEATS.sql)
 |41|[Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_CONSECUTIVE_NUMBERS.sql)
 |42|[The Number of Employee Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_THE_NUMBER_OF_EMPLOYEE_REPORT_TO_EACH_EMPLOYEE.sql)
+|43|[Friend Request II](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_FRIEND_REQUEST_II.sql)
 
 #### HackerRank
 
