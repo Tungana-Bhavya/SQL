@@ -129,6 +129,12 @@ The below are my solutions to the various queries and challenges
 |42|[The Number of Employee Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_THE_NUMBER_OF_EMPLOYEE_REPORT_TO_EACH_EMPLOYEE.sql)
 |43|[Friend Request II](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_FRIEND_REQUEST_II.sql)
 |44|[Movie Rating](https://leetcode.com/problems/movie-rating/submissions/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_MOVIE_RATING.sql)
+|45|[Investments In 2016](https://leetcode.com/problems/investments-in-2016/description/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_INVESTMENTS_IN_2016.sql)
+|46|[Products Price At Given Rate](https://leetcode.com/problems/product-price-at-a-given-date/description/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_PRODUCT_PRICE_AT_GIVEN_DATE.sql)
+|47|[Immediate Food Delivery II]()|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_IMMEDIATE_FOOD_DELIVERY_II.sql)
+|48|[Restaurant Growth](https://leetcode.com/problems/restaurant-growth/description/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_RESTAURANT_GROWTH.sql)
+|49|[Last Person To Fit In The Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/description/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_LAST_PERSON_TO_FIT_IN_BUS.sql)
+|50|[Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/?envType=study-plan-v2&envId=top-sql-50)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/LEETCODE/LEETCODE-SQL50/L_GAME_PLAY_ANALYSIS_IV.sql)
 
 #### HackerRank
 
