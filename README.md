@@ -80,6 +80,7 @@ The below are my solutions to the various queries and challenges
 |52|[Top Five States With Five Star Business](https://platform.stratascratch.com/coding/10046-top-5-states-with-5-star-businesses?code_type=3)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_52_TOP_FIVE_STATES_WITH_FIVE_STAR_BUSINESS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/ADVANCED_SQL/CTE/PROBLEMS/S_CTE_7_TOP_FIVE_STATES_WITH_FIVE_STAR_BUSINESS.jpg)
 |53|[City With Most Amenities](https://platform.stratascratch.com/coding/9633-city-with-most-amenities?code_type=3)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_53_CITY_WITH_MOST_AMENITIES.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/ADVANCED_SQL/CTE/PROBLEMS/S_CTE_8_CITY_WITH_MOST_AMENITIES.jpg)
 |54|[Finding User Purchases](https://platform.stratascratch.com/coding/10322-finding-user-purchases?code_type=3)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/ADVANCED_SQL/CTE/PROBLEMS/S_CTE_9_FINDING_USER_PURCHASES.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/ADVANCED_SQL/CTE/PROBLEMS/S_CTE_9_FINDING_USER_PURCHASES.jpg)
+|55|[ELECTION RESULTS](https://platform.stratascratch.com/coding/2099-election-results?code_type=3)|[Solution](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_54_ELECTION_RESULTS.sql)|[Output](https://github.com/Tungana-Bhavya/SQL/blob/main/STRATASCRATCH/S_54_ELECTION_RESULTS.jpg)
 
 
 #### Leetcode
